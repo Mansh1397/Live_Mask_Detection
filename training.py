@@ -44,7 +44,7 @@ def train():
     es = EarlyStopping(monitor='val_loss', mode='min', verbose=1)
 
     try:
-        early_stopping = sys.argv[2]
+        early_stopping = sys.argv[3]
     except:
         early_stopping = False
 
