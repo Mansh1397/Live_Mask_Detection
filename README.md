@@ -10,7 +10,9 @@ The second system argument is whether you want to opt for early stopping or not.
 The runtime command should look like this:
 
   python master.py "train" "True"
+  
            OR
+
   python master.py "detect" "True"
   
 Note: The "True" in the above syntax could be ignored.
